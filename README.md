@@ -1,33 +1,33 @@
-# Assistant App
+# Asistan Uygulaması
 
-A modern Android application built with Material Design components that provides a seamless user experience for managing tasks and notes.
+Material Design bileşenleri ile oluşturulmuş, görev ve notları yönetmek için kusursuz bir kullanıcı deneyimi sunan modern bir Android uygulaması.
 
-## Features
+## Özellikler
 
-- **Authentication**
-  - User registration with email and password
-  - Secure login system
-  - Password confirmation
-  - Form validation
+- **Kimlik Doğrulama**
+  - E-posta ve şifre ile kullanıcı kaydı
+  - Güvenli giriş sistemi
+  - Şifre onaylama
+  - Form doğrulama
 
-- **User Interface**
-  - Material Design 3 components
-  - Modern and clean UI
-  - Responsive layouts
-  - Smooth animations
-  - Dark/Light theme support
+- **Kullanıcı Arayüzü**
+  - Material Design 3 bileşenleri
+  - Modern ve temiz arayüz
+  - Duyarlı düzenler
+  - Akıcı animasyonlar
+  - Karanlık/Aydınlık tema desteği
 
-- **Screens**
-  - Splash Screen
-  - Login Screen
-  - Registration Screen
-  - Home Screen
-  - Tools Screen
-  - Settings Screen
-  - Profile Screen
-  - Notes Screen
+- **Ekranlar**
+  - Açılış Ekranı
+  - Giriş Ekranı
+  - Kayıt Ekranı
+  - Ana Ekran
+  - Araçlar Ekranı
+  - Ayarlar Ekranı
+  - Profil Ekranı
+  - Notlar Ekranı
 
-## Project Structure
+## Proje Yapısı
 
 ```
 app/
@@ -51,48 +51,38 @@ app/
 │   └── build.gradle
 ```
 
-## Setup Instructions
+## Kurulum Talimatları
 
-1. **Prerequisites**
-   - Android Studio Arctic Fox or newer
-   - JDK 11 or newer
-   - Android SDK 21 or newer
+1. **Gereksinimler**
+   - Android Studio Arctic Fox veya daha yeni
+   - JDK 11 veya daha yeni
+   - Android SDK 21 veya daha yeni
 
-2. **Installation**
+2. **Kurulum**
    ```bash
-   # Clone the repository
-   git clone [repository-url]
+   # Depoyu klonlayın
+   git clone [depo-url]
    
-   # Open the project in Android Studio
-   # File -> Open -> Select the project directory
+   # Projeyi Android Studio'da açın
+   # Dosya -> Aç -> Proje dizinini seçin
    ```
 
-3. **Build and Run**
-   - Open the project in Android Studio
-   - Wait for the Gradle sync to complete
-   - Click on "Run" button or press Shift + F10
-   - Select your target device (emulator or physical device)
+3. **Derleme ve Çalıştırma**
+   - Projeyi Android Studio'da açın
+   - Gradle senkronizasyonunun tamamlanmasını bekleyin
+   - "Çalıştır" düğmesine tıklayın veya Shift + F10 tuşlarına basın
+   - Hedef cihazınızı seçin (emülatör veya fiziksel cihaz)
 
-## Dependencies
+## Bağımlılıklar
 
 - AndroidX Core: 1.6.1
 - Material Design: 1.11.0
 - ConstraintLayout: 2.1.4
 
-## Contributing
+## Katkıda Bulunma
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-
-Your Name - your.email@example.com
-
-Project Link: [https://github.com/yourusername/assistant-app](https://github.com/yourusername/assistant-app) 
+1. Depoyu fork edin
+2. Özellik dalınızı oluşturun (`git checkout -b feature/YeniOzellik`)
+3. Değişikliklerinizi commit edin (`git commit -m 'Yeni özellik eklendi'`)
+4. Dalınıza push yapın (`git push origin feature/YeniOzellik`)
+5. Pull Request açın
